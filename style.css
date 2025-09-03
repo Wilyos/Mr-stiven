@@ -775,7 +775,7 @@ transform: scale(1.03);
 
 .contact .tag-contact {
   color: var(--text-color);
-  font-size: 2.5rem;
+  font-size: 4rem;
   text-align: left;
   margin: 0;
 }
@@ -784,9 +784,6 @@ transform: scale(1.03);
   .contact .social-icons ul {
     flex-direction: column;
     gap: 1.5rem;
-  }
-  .contact .tag-contact {
-    font-size: 2.3rem;
   }
 }
 
@@ -1184,7 +1181,7 @@ transform: scale(1.03);
     font-size: 1.6rem; /* Tamaño de fuente adecuado */
   }
   .contact .tag-contact {
-    font-size: 2rem;
+    font-size: 1.6rem;
     word-break: break-word;
     overflow-wrap: break-word;
     display: block;
