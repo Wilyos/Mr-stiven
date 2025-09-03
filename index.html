@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Mr Stiven TC</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Mr Stiven TC</a>
+    <div class="menu-icon" id="menu-icon">
+      <i class='bx bx-menu'></i>
+    </div>
+    <ul>
+      <li><a href="#home" data-i18n="nav_home">Inicio</a></li>
+      <li><a href="#about" data-i18n="nav_about">Sobre Mi</a></li>
+      <li><a href="#portfolio" data-i18n="nav_portfolio">Colaboraciones</a></li>
+      <li><a href="#service" data-i18n="nav_service">Estadisticas</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+    <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1 data-i18n="home_title">Stiven TC</h1>
+            <h2>
+                <span data-i18n="home_we_are" class="static-span">Soy</span>
+                <span style="--i:2" data-i18n="home_span1" data-text="Creador de contenido" class="animated-span">Creador de contenido</span>
+                <br>
+                <span style="--i:1" data-i18n="home_span2" data-text="Youtuber" class="animated-span">Youtuber</span>
+            </h2>
+            <p data-i18n="home_desc">Conecto marcas con el público a través de contenido auténtico y creativo.</p>
+            <div class="btn-sci">
+        <a href="#" class="btn" data-i18n="home_save_contact">Contacto de negocio</a>
+        <div class="sci">
+          <a href="https://www.youtube.com/@MrStivenTc" target="_blank" title="kick">
+            <i class='bx bxl-youtube' ></i>
+          </a>
+          <a href="https://kick.com/mrstiventc" target="_blank" title="kick">
+            <i class='bx bxl-kickstarter'></i>
+          </a>
+          <a href="https://facebook.com/stiven.ok" target="_blank">
+            <i class='bx bxl-facebook'></i>
+          </a>
+          <a href="https://www.instagram.com/stiven.tc" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+           <a href="mailto:cesaraugustocera@gmail.com">
+            <i class='bx bx-envelope'></i>
+          </a>
+        </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/assets/profile.webp" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/profile2.webp" alt="profile" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading" data-i18n="about_title">Sombre <span class="bg-gradient-1">Mi</span></h2>
+        <p data-i18n="about_desc">
+          Soy Stiven, creador de contenido con presencia en Youtube, Kick, Instagram y Facebook. Mi contenido se enfoca en Vlogs y experiencias personales, retos y dinamicas sociales, Entretenimiento y humor. Con ellos comparto contenido auténtico y dinámico que conecta de manera orgánica.
+        </p>
+        <a href="#contacto">
+          <button class="btn" data-i18n="about_btn">Contactame</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="projects">
+  <h2 class="heading" data-i18n="projects_title">Colabor<span class="bg-gradient-1">aciones</span></h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/assets/banner1.webp" alt="logo">
+          <h3 data-i18n="project1_title">Colaboraciones con marcas</h3>
+          <p data-i18n="project1_desc">
+            Creación de contenido patrocinado en redes sociales.
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="/assets/banner2.webp" alt="eco">
+          <h3 data-i18n="project2_title">Promoción de productos</h3>
+          <p data-i18n="project2_desc">
+            Unboxing, reseñas y recomendaciones auténticas.
+          </p>
+        </div>
+        <div class="project-card">
+            <img src="/assets/banner3.webp" alt="solutions">
+            <h3 data-i18n="project3_title">Eventos</h3>
+            <p data-i18n="project3_desc">
+              Asistencia y cobertura de lanzamientos o ferias. Difusión en historias, reels y publicaciones para aumentar el alcance de una marca.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+  <h2 class="heading" data-i18n="services_title">Estadísticas</h2>
+      <div class="services-container">
+          <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-user-plus'></i>
+        <h4 data-i18n="service1_title">Seguidores</h4>
+        <p data-i18n="service1_desc">
+          12.6 M Youtube
+          <br>
+          5 M Instagram
+          <br>
+          1.4 M Kick
+        </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-stats' ></i>
+                <h4 data-i18n="service2_title">Media De vistas</h4>
+                <p data-i18n="service2_desc">
+                  62622
+                </p>
+            </div>
+          </div>
+           <div class="service-box">
+            <div class="service-info">
+                <i class='bx bx-male-sign'></i>
+                <h4 data-i18n="service3_title">Demografía de la audiencia</h4>
+                <p data-i18n="service3_desc">
+                 Jovenes y adultos de 13 a 25 años en promedio, con mayoria de publico Masculino.
+                </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading" data-i18n="contact_title">Contacta<span class="bg-gradient-1">me</span></h2>
+      <div class="contact-content">
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/@MrStivenTc" target="_blank" title="kick">
+                <i class='bx bxl-youtube' ></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_youtube">@mrstiventc</span>
+            </li>
+            <li>
+              <a href="https://kick.com/mrstiventc" target="_blank" title="kick">
+                <i class='bx bxl-kickstarter'></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_kick">mrstiventc</span>
+            </li>
+            <li>
+              <a href="https://facebook.com/stiven.ok" target="_blank">
+                <i class='bx bxl-facebook'></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_facebook">stiven.ok</span>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/stiven.tc" target="_blank">
+                <i class='bx bxl-instagram'></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_instagram">@stiven.tc</span>
+            </li>
+            <li>
+              <a href="mailto:cesaraugustocera@gmail.com">
+                <i class='bx bx-envelope'></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_email">cesaraugustocera@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+  <p class="copyright" data-i18n="footer_copy">&copy; D&V Bank 2025</p>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
